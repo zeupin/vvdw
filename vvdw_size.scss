@@ -1,0 +1,26 @@
+
+// 可以自定义尺寸
+@mixin vvdw_size($vvdw_height) {
+  .vvdw-row {
+    height: $vvdw_height / 2;
+  }
+
+  .vvdw-item {
+    width: $vvdw_height;
+    height: $vvdw_height;
+  }
+
+  .vvdw-border {
+    top: $vvdw_height * 0.145;
+    left: $vvdw_height * 0.145;
+    width: $vvdw_height / 1.414213562373;
+    height: $vvdw_height / 1.414213562373;
+  }
+
+  .vvdw-icon {
+    width: $vvdw_height * 0.4;
+  }
+}
+
+// 假设设置为200px高
+@include vvdw_size(200px);

@@ -1,4 +1,4 @@
-.vvdw { position: relative; text-align: center; font-size: 0; }
+.vvdw { position: relative; text-align: center; font-size: 0; padding-bottom: 7.5rem; }
 
 .vvdw, .vvdw-row, .vvdw-item, .vvdw-border, .vvdw-icon, .vvdw-text { box-sizing: border-box; background-clip: border-box; }
 

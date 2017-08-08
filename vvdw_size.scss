@@ -1,6 +1,10 @@
 
 // 可以自定义尺寸
 @mixin vvdw_size($vvdw_height) {
+  .vvdw {
+    padding-bottom: $vvdw_height / 2;
+  }
+
   .vvdw-row {
     height: $vvdw_height / 2;
   }

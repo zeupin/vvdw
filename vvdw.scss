@@ -7,6 +7,7 @@ $vvdw_height: 15rem; // 默认是15rem高（240px）
   position: relative;
   text-align: center;
   font-size: 0;                 // (1)
+  padding-bottom: $vvdw_height / 2;
 }
 
 .vvdw,
